@@ -1,0 +1,222 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'httpolyglot',
+1 verbose cli   'socket.io',
+1 verbose cli   'socket.io-client',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express
+8 silly fetchPackageMetaData httpolyglot
+9 silly fetchPackageMetaData socket.io
+10 silly fetchPackageMetaData socket.io-client
+11 silly fetchNamedPackageData express
+12 silly mapToRegistry name express
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/express
+16 silly fetchNamedPackageData httpolyglot
+17 silly mapToRegistry name httpolyglot
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/httpolyglot
+21 silly fetchNamedPackageData socket.io
+22 silly mapToRegistry name socket.io
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry uri https://registry.npmjs.org/socket.io
+26 silly fetchNamedPackageData socket.io-client
+27 silly mapToRegistry name socket.io-client
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/socket.io-client
+31 verbose request uri https://registry.npmjs.org/httpolyglot
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 2:42:38 PM
+34 verbose request id 117799c9fc18fbc4
+35 verbose etag W/"5a340c4b5aaba308f9517fc4e85fa351"
+36 verbose lastModified Sun, 27 May 2018 04:05:04 GMT
+37 http request GET https://registry.npmjs.org/httpolyglot
+38 verbose request uri https://registry.npmjs.org/express
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 2:42:38 PM
+41 verbose etag W/"8d3ce6f95decad3c420356def2112534"
+42 verbose lastModified Fri, 29 Apr 2022 19:33:42 GMT
+43 http request GET https://registry.npmjs.org/express
+44 verbose request uri https://registry.npmjs.org/socket.io
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 2:42:38 PM
+47 verbose etag W/"51ae709090e21e46504bf789a2266a5c"
+48 verbose lastModified Mon, 25 Apr 2022 06:06:24 GMT
+49 http request GET https://registry.npmjs.org/socket.io
+50 verbose request uri https://registry.npmjs.org/socket.io-client
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 2:42:38 PM
+53 verbose etag W/"6c5ee0fe3e1dcb3c7ec5ce1117a71a9d"
+54 verbose lastModified Sat, 23 Apr 2022 22:39:23 GMT
+55 http request GET https://registry.npmjs.org/socket.io-client
+56 http 304 https://registry.npmjs.org/httpolyglot
+57 verbose headers { date: 'Sun, 01 May 2022 05:42:38 GMT',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'cf-ray': '704631ec3c0f61a0-ICN',
+57 verbose headers   age: '110',
+57 verbose headers   'cache-control': 'public, max-age=300',
+57 verbose headers   etag: '"5a340c4b5aaba308f9517fc4e85fa351"',
+57 verbose headers   'last-modified': 'Sun, 27 May 2018 04:05:04 GMT',
+57 verbose headers   vary: 'Accept-Encoding',
+57 verbose headers   'cf-cache-status': 'HIT',
+57 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+57 verbose headers   server: 'cloudflare' }
+58 silly get cb [ 304,
+58 silly get   { date: 'Sun, 01 May 2022 05:42:38 GMT',
+58 silly get     connection: 'keep-alive',
+58 silly get     'cf-ray': '704631ec3c0f61a0-ICN',
+58 silly get     age: '110',
+58 silly get     'cache-control': 'public, max-age=300',
+58 silly get     etag: '"5a340c4b5aaba308f9517fc4e85fa351"',
+58 silly get     'last-modified': 'Sun, 27 May 2018 04:05:04 GMT',
+58 silly get     vary: 'Accept-Encoding',
+58 silly get     'cf-cache-status': 'HIT',
+58 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+58 silly get     server: 'cloudflare' } ]
+59 verbose etag https://registry.npmjs.org/httpolyglot from cache
+60 verbose get saving httpolyglot to /home/primrose/.npm/registry.npmjs.org/httpolyglot/.cache.json
+61 http 304 https://registry.npmjs.org/express
+62 verbose headers { date: 'Sun, 01 May 2022 05:42:38 GMT',
+62 verbose headers   connection: 'keep-alive',
+62 verbose headers   'cf-ray': '704631ec3abe0fbd-ICN',
+62 verbose headers   age: '111',
+62 verbose headers   'cache-control': 'public, max-age=300',
+62 verbose headers   etag: '"8d3ce6f95decad3c420356def2112534"',
+62 verbose headers   'last-modified': 'Fri, 29 Apr 2022 19:33:42 GMT',
+62 verbose headers   vary: 'Accept-Encoding',
+62 verbose headers   'cf-cache-status': 'HIT',
+62 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+62 verbose headers   'x-amz-replication-status': 'COMPLETED',
+62 verbose headers   server: 'cloudflare' }
+63 silly get cb [ 304,
+63 silly get   { date: 'Sun, 01 May 2022 05:42:38 GMT',
+63 silly get     connection: 'keep-alive',
+63 silly get     'cf-ray': '704631ec3abe0fbd-ICN',
+63 silly get     age: '111',
+63 silly get     'cache-control': 'public, max-age=300',
+63 silly get     etag: '"8d3ce6f95decad3c420356def2112534"',
+63 silly get     'last-modified': 'Fri, 29 Apr 2022 19:33:42 GMT',
+63 silly get     vary: 'Accept-Encoding',
+63 silly get     'cf-cache-status': 'HIT',
+63 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+63 silly get     'x-amz-replication-status': 'COMPLETED',
+63 silly get     server: 'cloudflare' } ]
+64 verbose etag https://registry.npmjs.org/express from cache
+65 verbose get saving express to /home/primrose/.npm/registry.npmjs.org/express/.cache.json
+66 http 304 https://registry.npmjs.org/socket.io
+67 verbose headers { date: 'Sun, 01 May 2022 05:42:38 GMT',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'cf-ray': '704631ec4909a7b4-ICN',
+67 verbose headers   age: '111',
+67 verbose headers   'cache-control': 'public, max-age=300',
+67 verbose headers   etag: '"51ae709090e21e46504bf789a2266a5c"',
+67 verbose headers   'last-modified': 'Mon, 25 Apr 2022 06:06:24 GMT',
+67 verbose headers   vary: 'Accept-Encoding',
+67 verbose headers   'cf-cache-status': 'HIT',
+67 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+67 verbose headers   'x-amz-replication-status': 'PENDING',
+67 verbose headers   server: 'cloudflare' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Sun, 01 May 2022 05:42:38 GMT',
+68 silly get     connection: 'keep-alive',
+68 silly get     'cf-ray': '704631ec4909a7b4-ICN',
+68 silly get     age: '111',
+68 silly get     'cache-control': 'public, max-age=300',
+68 silly get     etag: '"51ae709090e21e46504bf789a2266a5c"',
+68 silly get     'last-modified': 'Mon, 25 Apr 2022 06:06:24 GMT',
+68 silly get     vary: 'Accept-Encoding',
+68 silly get     'cf-cache-status': 'HIT',
+68 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+68 silly get     'x-amz-replication-status': 'PENDING',
+68 silly get     server: 'cloudflare' } ]
+69 verbose etag https://registry.npmjs.org/socket.io from cache
+70 verbose get saving socket.io to /home/primrose/.npm/registry.npmjs.org/socket.io/.cache.json
+71 http 304 https://registry.npmjs.org/socket.io-client
+72 verbose headers { date: 'Sun, 01 May 2022 05:42:38 GMT',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'cf-ray': '704631ec4a8fa7bf-ICN',
+72 verbose headers   age: '96',
+72 verbose headers   'cache-control': 'public, max-age=300',
+72 verbose headers   etag: '"6c5ee0fe3e1dcb3c7ec5ce1117a71a9d"',
+72 verbose headers   'last-modified': 'Sat, 23 Apr 2022 22:39:23 GMT',
+72 verbose headers   vary: 'Accept-Encoding',
+72 verbose headers   'cf-cache-status': 'HIT',
+72 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 verbose headers   'x-amz-replication-status': 'COMPLETED',
+72 verbose headers   server: 'cloudflare' }
+73 silly get cb [ 304,
+73 silly get   { date: 'Sun, 01 May 2022 05:42:38 GMT',
+73 silly get     connection: 'keep-alive',
+73 silly get     'cf-ray': '704631ec4a8fa7bf-ICN',
+73 silly get     age: '96',
+73 silly get     'cache-control': 'public, max-age=300',
+73 silly get     etag: '"6c5ee0fe3e1dcb3c7ec5ce1117a71a9d"',
+73 silly get     'last-modified': 'Sat, 23 Apr 2022 22:39:23 GMT',
+73 silly get     vary: 'Accept-Encoding',
+73 silly get     'cf-cache-status': 'HIT',
+73 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly get     'x-amz-replication-status': 'COMPLETED',
+73 silly get     server: 'cloudflare' } ]
+74 verbose etag https://registry.npmjs.org/socket.io-client from cache
+75 verbose get saving socket.io-client to /home/primrose/.npm/registry.npmjs.org/socket.io-client/.cache.json
+76 silly install normalizeTree
+77 silly loadCurrentTree Finishing
+78 silly loadIdealTree Starting
+79 silly install loadIdealTree
+80 silly cloneCurrentTree Starting
+81 silly install cloneCurrentTreeToIdealTree
+82 silly cloneCurrentTree Finishing
+83 silly loadShrinkwrap Starting
+84 silly install loadShrinkwrap
+85 silly loadShrinkwrap Finishing
+86 silly loadAllDepsIntoIdealTree Starting
+87 silly install loadAllDepsIntoIdealTree
+88 silly resolveWithNewModule httpolyglot@0.1.2 checking installable status
+89 silly cache add args [ 'httpolyglot', null ]
+90 verbose cache add spec httpolyglot
+91 silly resolveWithNewModule express@4.18.1 checking installable status
+92 silly cache add args [ 'express', null ]
+93 verbose cache add spec express
+94 verbose stack Error: Missing required argument #1
+94 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+94 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+94 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+94 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+94 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+94 verbose stack     at Array.forEach (<anonymous>)
+94 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+94 verbose stack     at Array.forEach (<anonymous>)
+94 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+94 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+95 verbose cwd /home/primrose/Documents/MediaServer
+96 error Linux 5.10.16.3-microsoft-standard-WSL2
+97 error argv "/usr/bin/node" "/usr/bin/npm" "install" "express" "httpolyglot" "socket.io" "socket.io-client" "--save"
+98 error node v8.10.0
+99 error npm  v3.5.2
+100 error code EMISSINGARG
+101 error typeerror Error: Missing required argument #1
+101 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+101 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+101 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+101 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+101 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+101 error typeerror     at Array.forEach (<anonymous>)
+101 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+101 error typeerror     at Array.forEach (<anonymous>)
+101 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+101 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+102 error typeerror This is an error with npm itself. Please report this error at:
+102 error typeerror     <http://github.com/npm/npm/issues>
+103 verbose exit [ 1, true ]
